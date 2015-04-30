@@ -1,0 +1,224 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jura Regular'), local('Jura-Regular'), url(http://fonts.gstatic.com/s/jura/v7/TTP6pkLK4ssO46rAsyf3PA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jura Regular'), local('Jura-Regular'), url(http://fonts.gstatic.com/s/jura/v7/BKlgo-m363VJPXRiRr3a5A.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jura Regular'), local('Jura-Regular'), url(http://fonts.gstatic.com/s/jura/v7/LncB6wFxJ5rEqHJu945EOg.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jura Regular'), local('Jura-Regular'), url(http://fonts.gstatic.com/s/jura/v7/bmI0GxZww8t20K342Lco0g.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jura Regular'), local('Jura-Regular'), url(http://fonts.gstatic.com/s/jura/v7/2Jw1GPtuhy2Mk02G7ZXodQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+div.table 
+{
+    display:table;
+}
+form.tr, div.tr
+{
+    display:table-row;
+}
+span.td
+{
+    display:table-cell;
+}
+strike {
+	color: red;
+}
+
+strike p {
+	color: black;
+}
+tr{
+	color: black;
+}
+
+body {
+	font-family: 'Jura';
+	
+}
+
+form {
+	font-size: 25px;
+	width: 100%;
+}
+
+table {
+	width: 100%;
+}
+
+#mainContent {
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	
+}
+
+.success {
+	color: #5cb85c;
+}
+
+select {
+	font-family: 'Jura';
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 0px;
+  width: 100%;
+	text-align: center;
+	border: 1px solid;
+}
+
+option {
+	display: inline;
+}
+
+#mainContent h1{
+	text-align: center;
+}
+
+.description {
+	width: 60%;
+	padding: 6px 12px;
+	box-sizing: border-box;
+}
+
+.priority {
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.completed {
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.submit {
+	
+    text-align: center;
+    border: 1px solid !important;
+    transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+}
+
+.submit:hover {
+ background-color: #bdbdbd;
+}
+
+#addDescription {
+	text-align: left;
+	border: 1px solid;
+	box-sizing: border-box;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+}
+
+
+
+td .High, td .Medium, td .Low, td .default, td .Complete{
+	font-family: 'Jura';
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  width: 100%;
+	text-align: center;
+}
+
+.Complete {
+	color: #fff;
+  background-color: #d3d3d3;
+  border-color: #939393;
+  transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	border-radius: 5px;
+}
+
+.Complete:hover {
+	color: #fff;
+  background-color: #bdbdbd;
+  border-color: #696969;
+}
+
+.High {
+	color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	border-radius: 5px;
+
+}
+
+.High:hover {
+	color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+.Medium {
+	 color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+}
+
+.Medium:hover {
+	color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+
+.Low {
+	color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+}
+
+.Low:hover{
+	color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
